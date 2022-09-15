@@ -20,3 +20,4 @@ else:
 # how many total requests have been made over the entire report, output to txt file
 
 
+# output the data from the for loops
