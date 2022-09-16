@@ -16,7 +16,6 @@ else:
 
 # how many total requests have been made in the last 6 months, output to txt file
 
-
 # how many total requests have been made over the entire report, output to txt file
 
 
