@@ -15,7 +15,11 @@ else:
     print("there was already a log on your local machine")
 
 # how many total requests have been made in the last 6 months, output to txt file
-
+with open("project_3_output.txt") as log_file:
+    lines = []
+    for line in log_file:
+        lines.append(line)
+        
 # how many total requests have been made over the entire report, output to txt file
 
 
