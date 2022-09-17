@@ -21,6 +21,8 @@ with open("project_3_output.txt") as log_file:
         lines.append(line)
         
 # how many total requests have been made over the entire report, output to txt file
-
+with open("project_3_output.txt") as log_file:
+    lines = len(log_file.readlines())
+    print("Total number of lines:", lines)
 
 # output the data from the for loops
