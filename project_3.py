@@ -28,5 +28,7 @@ for line in lines:
         break
 # how many total requests have been made over the entire report, output to txt file
 
+lines_total = len(lines)
+
 
 # output the data from the for loops
