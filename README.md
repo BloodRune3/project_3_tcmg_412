@@ -1,0 +1,8 @@
+Once you download the files from the repo, you need to ensure that you have the library requests downloaded
+to do this, you need to install the requests library via pip
+
+open a python editor or your OS command line and type the following
+
+pip install requests
+
+once installed, the file should run
