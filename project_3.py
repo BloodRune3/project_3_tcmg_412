@@ -23,14 +23,16 @@ with open("project_3_output.txt") as log_file:
 start = 0
 date = "11/Apr/1995"
 for line in lines:
-	start += 1
-	if date in line:
-		print(line)
-		break
+    start += 1
+    if date in line:
+        break
+        
 # how many total requests have been made over the entire report, output to txt file
 lines_total = len(lines)
+
 #sixMonths is a variable used to count the lines between lines_total and start
 sixMonths = lines_total - start + 1
+
 
 
 # output the data from the for loops
