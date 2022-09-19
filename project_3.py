@@ -36,3 +36,4 @@ sixMonths = lines_total - start + 1
 
 
 # output the data from the for loops
+print("In the report, there are " + str(lines_total) + " requests total and " + str(sixMonths) + " in the last six months.")
