@@ -28,6 +28,9 @@ for line in lines:
 		print(line)
 		break
 # how many total requests have been made over the entire report, output to txt file
+lines_total = len(lines)
+#sixMonths is a variable used to count the lines between lines_total and start
+sixMonths = lines_total - start + 1
 
 
 # output the data from the for loops
