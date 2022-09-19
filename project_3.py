@@ -20,6 +20,13 @@ with open("project_3_output.txt") as log_file:
     for line in log_file:
         lines.append(line)
         
+start = 0
+date = "11/Apr/1995"
+for line in lines:
+	start += 1
+	if date in line:
+		print(line)
+		break
 # how many total requests have been made over the entire report, output to txt file
 
 
