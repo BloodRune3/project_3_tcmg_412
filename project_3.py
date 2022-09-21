@@ -1,5 +1,5 @@
 # This is our project 3 script that will preform the tasks required in the lab
-import requests
+from pip._vendor import requests
 from os.path import exists
 
 # Set variables for static values, url, dates etc
